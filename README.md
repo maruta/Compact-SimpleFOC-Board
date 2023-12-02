@@ -7,6 +7,10 @@ This repository contains design data for a BLDC motor controller board composed 
 * MT6535 (Magnetic Angle Sensor)
 * INA240 (Current Sense Amplifier)
 
+and mainly designed for a tiny inverted pendulm project.
+
+[![Wheeled inverted pendulum powered by SimpleFOC-1080p60H mov](https://github.com/maruta/Compact-SimpleFOC-Board/assets/486675/f13f1e1a-335b-40cc-a1a0-964be4d5bf98)](https://youtu.be/5sXEKwi0VvQ?si=sFahMU4BhdU_3RiM)
+
 ## Disclaimer
 
 The information and design files in this repository are provided "as is" without warranty of any kind, express or implied. We make no guarantees regarding the functionality or reliability of these designs. Users assume full responsibility for the application and use of these files. Any commercial application of these designs is at the user's own risk.
@@ -18,14 +22,15 @@ The board is designed primarily for the SimpleFOC library, with an emphasis on e
 The RP2040 component in this design is compatible with the Raspberry Pi Pico, minus the USB connector. It can be programmed using the Arduino IDE with the [Raspberry Pi Pico Arduino core](https://github.com/earlephilhower/arduino-pico), using the [Raspberry Pi Debug Probe](https://www.raspberrypi.com/products/debug-probe/).
 
 
-Board Specifications:
+### Board Specifications
 - Voltage Range: 2-5.5 V
 - Maximum Current: 2 A (1.4 Arms)
 
-Motor Compatibility:
+### Motor Compatibility
 - The board has been tested with the RCTIMER GBM2804 motor.
 
-Connector Details:
+### Connector Details
+
 - J1: RP2040 SWD Connector (3-pin JST SH connector)
   - Pin 1: SWCLK
   - Pin 2: GND
