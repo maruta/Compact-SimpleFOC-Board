@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TMC6300")(type "KiCad")(uri "${KIPRJMOD}/ul_TMC6300-LA/KiCADv6/2023-06-25_06-18-05.kicad_sym")(options "")(descr ""))
+  (lib (name "W25Q16")(type "KiCad")(uri "${KIPRJMOD}/ul_W25Q16JVUXIQ/KiCADv6/2023-06-30_23-31-44.kicad_sym")(options "")(descr ""))
+  (lib (name "RT6150B")(type "KiCad")(uri "${KIPRJMOD}/ul_RT6150B-33GQW/KiCADv6/2023-07-01_06-49-57.kicad_sym")(options "")(descr ""))
+  (lib (name "MT6835")(type "KiCad")(uri "${KIPRJMOD}/MT6835GT-STD.kicad_sym")(options "")(descr ""))
+)
