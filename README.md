@@ -4,7 +4,7 @@ This repository contains design data for a BLDC motor controller board composed 
 
 * RP2040 (Controller)
 * TMC6300 (Driver)
-* MT6535 (Magnetic Angle Sensor)
+* MT6835 (Magnetic Angle Sensor)
 * INA240 (Current Sense Amplifier)
 
 and mainly designed for a tiny inverted pendulm project.
